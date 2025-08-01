@@ -1,11 +1,7 @@
 name: ML Run
-
 # on mentions a trigger for the workflow
-on:
-  push: # when a push is made to the main branch of the repository
-    branches:
-      - main # only run the workflow when a push is made to the main branch
-
+on: 
+    push: # when a push is made to the main branch of the repository
 jobs:
   ml_run:
     runs-on: ubuntu-latest # runs the workflow on the latest ubuntu version
