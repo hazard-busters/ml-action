@@ -2,7 +2,7 @@ name: ML Run
 
 # on mentions a trigger for the workflow
 on:
-  push: # when a push is made to the main branch
+  push: # when a push is made to the main branch of the repository
     branches:
       - main # only run the workflow when a push is made to the main branch
 
